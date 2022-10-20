@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="MainContext" prefHeight="1011.0" prefWidth="1926.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddNewSOrderFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="437.0" layoutY="304.0" text="Ingredient Name" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtIngredient" alignment="CENTER" layoutX="686.0" layoutY="298.0" prefHeight="38.0" prefWidth="265.0" />
+      <Label alignment="CENTER" layoutX="447.0" layoutY="471.0" text="Price" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtQuantity" alignment="CENTER" layoutX="686.0" layoutY="381.0" prefHeight="38.0" prefWidth="265.0" />
+      <Label alignment="CENTER" layoutX="435.0" layoutY="387.0" text="Quantity" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPrice" alignment="CENTER" layoutX="686.0" layoutY="465.0" prefHeight="38.0" prefWidth="265.0" />
+      <Label alignment="CENTER" layoutX="443.0" layoutY="224.0" text="S_OID" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSOrderID" alignment="CENTER" layoutX="686.0" layoutY="218.0" prefHeight="38.0" prefWidth="265.0" />
+
+      <JFXButton layoutX="885.0" layoutY="570.0" onAction="#btnAddSOrderIDOnAction" prefHeight="46.0" prefWidth="122.0" text="ADD" textFill="#fffafa">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="370.0" layoutY="570.0" onAction="#btnBackOnAction" prefHeight="46.0" prefWidth="114.0" text="Back" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
